@@ -1,0 +1,40 @@
+﻿<UserControl
+    x:Class="WPF_containers.ucWrappanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WPF_containers"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="600"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid x:Name="ucMainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <WrapPanel Background="Tan">
+            <Button Content="Button Een" />
+            <Button Content="Button Twee" />
+            <Button Content="Button Drie" />
+            <Button Content="Button Vier" />
+            <Button Content="Button Vijf" />
+            <Button Content="Button Zes" />
+            <Button Content="Button Seven" />
+        </WrapPanel>
+
+        <WrapPanel
+            Grid.Row="1"
+            Background="Beige"
+            Orientation="Vertical">
+            <Button Content="Button Een" />
+            <Button Height="100" Content="Button Twee" />
+            <Button Content="Button Drie" />
+            <Button Padding="20" Content="Button Vier" />
+            <Button Content="Button Vijf" />
+            <Button Content="Button Zes" />
+            <Button Content="Button Seven" />
+        </WrapPanel>
+    </Grid>
+</UserControl>

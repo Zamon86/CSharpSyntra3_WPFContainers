@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>WPF_containers</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="VisualizingStackPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UniformGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SharedSizeScope.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridSplitter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Grid2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InkCanvas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DockPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Canvas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SimpleDockPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ScrollViewer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Grid1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Wrappanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ucStackpanelBorder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="DockPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VisualizingStackPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ucStackpanelBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Grid1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>
